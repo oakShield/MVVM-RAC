@@ -10,7 +10,7 @@ target 'MVVMModel' do
   pod 'SVProgressHUD'
   pod 'XMNetworking'
   pod 'Masonry'
-  
+  pod 'ReactiveCocoa'
 
   target 'MVVMModelTests' do
     inherit! :search_paths
