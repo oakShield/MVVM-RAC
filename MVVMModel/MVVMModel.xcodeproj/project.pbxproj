@@ -20,7 +20,6 @@
 		DFE203B81E543F1D00B1138E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DFE203B71E543F1D00B1138E /* AppDelegate.m */; };
 		DFE203C01E54434700B1138E /* RxHomeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = DFE203BF1E54434700B1138E /* RxHomeVC.m */; };
 		DFE203C31E54435900B1138E /* RxNearVC.m in Sources */ = {isa = PBXBuildFile; fileRef = DFE203C21E54435900B1138E /* RxNearVC.m */; };
-		DFE203C61E54461800B1138E /* RxBridge.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFE203C51E54461800B1138E /* RxBridge.swift */; };
 		F29440343624A6BC8CBCF3B2 /* Pods_MVVMModelTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 244F6571E7C9011CE6C0BB97 /* Pods_MVVMModelTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -73,8 +72,6 @@
 		DFE203BF1E54434700B1138E /* RxHomeVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RxHomeVC.m; sourceTree = "<group>"; };
 		DFE203C11E54435900B1138E /* RxNearVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RxNearVC.h; sourceTree = "<group>"; };
 		DFE203C21E54435900B1138E /* RxNearVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RxNearVC.m; sourceTree = "<group>"; };
-		DFE203C41E54461800B1138E /* MVVMModel-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MVVMModel-Bridging-Header.h"; sourceTree = "<group>"; };
-		DFE203C51E54461800B1138E /* RxBridge.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RxBridge.swift; sourceTree = "<group>"; };
 		F05A6B57618B0D7DB8BA7DB3 /* Pods_MVVMModelUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MVVMModelUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -250,8 +247,6 @@
 				DFE203B61E543F1D00B1138E /* AppDelegate.h */,
 				DFE203B71E543F1D00B1138E /* AppDelegate.m */,
 				DFE203AF1E543BE800B1138E /* PrefixHeader.pch */,
-				DFE203C51E54461800B1138E /* RxBridge.swift */,
-				DFE203C41E54461800B1138E /* MVVMModel-Bridging-Header.h */,
 			);
 			path = Other;
 			sourceTree = "<group>";
@@ -632,7 +627,6 @@
 				DFE203A91E543A9F00B1138E /* RxBaseVC.m in Sources */,
 				DFE203AC1E543AC000B1138E /* RxTabVC.m in Sources */,
 				DFE203C01E54434700B1138E /* RxHomeVC.m in Sources */,
-				DFE203C61E54461800B1138E /* RxBridge.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -820,7 +814,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 2BF350C4F2807CB4AAC570B4 /* Pods-MVVMModelTests.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = P7U52R78ZF;
 				INFOPLIST_FILE = MVVMModelTests/Info.plist;
@@ -836,7 +829,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 9F156043398CF8DC3B2A20CD /* Pods-MVVMModelTests.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = P7U52R78ZF;
 				INFOPLIST_FILE = MVVMModelTests/Info.plist;
@@ -852,7 +844,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 78E681EED9A2C627D2C28118 /* Pods-MVVMModelUITests.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = P7U52R78ZF;
 				INFOPLIST_FILE = MVVMModelUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -867,7 +858,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 2489D6C6AAB3348467D7AE69 /* Pods-MVVMModelUITests.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = P7U52R78ZF;
 				INFOPLIST_FILE = MVVMModelUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
