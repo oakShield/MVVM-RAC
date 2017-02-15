@@ -10,13 +10,14 @@
 		0F0F903D5F3C442D8CFFC59B /* Pods_MVVMModelUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F05A6B57618B0D7DB8BA7DB3 /* Pods_MVVMModelUITests.framework */; };
 		3EA91B3E95679B35B0F471CC /* Pods_MVVMModel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56F8EA6726573E15D8EBB139 /* Pods_MVVMModel.framework */; };
 		DFD3F59A1E5432A600FA38C6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DFD3F5991E5432A600FA38C6 /* main.m */; };
-		DFD3F59D1E5432A600FA38C6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DFD3F59C1E5432A600FA38C6 /* AppDelegate.m */; };
-		DFD3F5A01E5432A600FA38C6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DFD3F59F1E5432A600FA38C6 /* ViewController.m */; };
 		DFD3F5A31E5432A600FA38C6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DFD3F5A11E5432A600FA38C6 /* Main.storyboard */; };
 		DFD3F5A51E5432A600FA38C6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DFD3F5A41E5432A600FA38C6 /* Assets.xcassets */; };
 		DFD3F5A81E5432A600FA38C6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DFD3F5A61E5432A600FA38C6 /* LaunchScreen.storyboard */; };
 		DFD3F5B31E5432A700FA38C6 /* MVVMModelTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DFD3F5B21E5432A700FA38C6 /* MVVMModelTests.m */; };
 		DFD3F5BE1E5432A700FA38C6 /* MVVMModelUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DFD3F5BD1E5432A700FA38C6 /* MVVMModelUITests.m */; };
+		DFE203A91E543A9F00B1138E /* RxBaseVC.m in Sources */ = {isa = PBXBuildFile; fileRef = DFE203A81E543A9F00B1138E /* RxBaseVC.m */; };
+		DFE203AC1E543AC000B1138E /* RxTabVC.m in Sources */ = {isa = PBXBuildFile; fileRef = DFE203AB1E543AC000B1138E /* RxTabVC.m */; };
+		DFE203B81E543F1D00B1138E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DFE203B71E543F1D00B1138E /* AppDelegate.m */; };
 		F29440343624A6BC8CBCF3B2 /* Pods_MVVMModelTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 244F6571E7C9011CE6C0BB97 /* Pods_MVVMModelTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -48,10 +49,6 @@
 		DA8A6339799F656FF040A63E /* Pods-MVVMModel.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MVVMModel.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MVVMModel/Pods-MVVMModel.debug.xcconfig"; sourceTree = "<group>"; };
 		DFD3F5951E5432A600FA38C6 /* MVVMModel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MVVMModel.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DFD3F5991E5432A600FA38C6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		DFD3F59B1E5432A600FA38C6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		DFD3F59C1E5432A600FA38C6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		DFD3F59E1E5432A600FA38C6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		DFD3F59F1E5432A600FA38C6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		DFD3F5A21E5432A600FA38C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DFD3F5A41E5432A600FA38C6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DFD3F5A71E5432A600FA38C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -62,6 +59,13 @@
 		DFD3F5B91E5432A700FA38C6 /* MVVMModelUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MVVMModelUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DFD3F5BD1E5432A700FA38C6 /* MVVMModelUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MVVMModelUITests.m; sourceTree = "<group>"; };
 		DFD3F5BF1E5432A700FA38C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DFE203A71E543A9F00B1138E /* RxBaseVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RxBaseVC.h; sourceTree = "<group>"; };
+		DFE203A81E543A9F00B1138E /* RxBaseVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RxBaseVC.m; sourceTree = "<group>"; };
+		DFE203AA1E543AC000B1138E /* RxTabVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RxTabVC.h; sourceTree = "<group>"; };
+		DFE203AB1E543AC000B1138E /* RxTabVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RxTabVC.m; sourceTree = "<group>"; };
+		DFE203AF1E543BE800B1138E /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		DFE203B61E543F1D00B1138E /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DFE203B71E543F1D00B1138E /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		F05A6B57618B0D7DB8BA7DB3 /* Pods_MVVMModelUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MVVMModelUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -141,10 +145,11 @@
 		DFD3F5971E5432A600FA38C6 /* MVVMModel */ = {
 			isa = PBXGroup;
 			children = (
-				DFD3F59B1E5432A600FA38C6 /* AppDelegate.h */,
-				DFD3F59C1E5432A600FA38C6 /* AppDelegate.m */,
-				DFD3F59E1E5432A600FA38C6 /* ViewController.h */,
-				DFD3F59F1E5432A600FA38C6 /* ViewController.m */,
+				DFE203A21E543A8600B1138E /* Base */,
+				DFE2039A1E543A2800B1138E /* Main */,
+				DFE203A11E543A3100B1138E /* Tool */,
+				DFE203A01E543A3100B1138E /* Other */,
+				DFE203AD1E543AEB00B1138E /* Lib */,
 				DFD3F5A11E5432A600FA38C6 /* Main.storyboard */,
 				DFD3F5A41E5432A600FA38C6 /* Assets.xcassets */,
 				DFD3F5A61E5432A600FA38C6 /* LaunchScreen.storyboard */,
@@ -178,6 +183,120 @@
 				DFD3F5BF1E5432A700FA38C6 /* Info.plist */,
 			);
 			path = MVVMModelUITests;
+			sourceTree = "<group>";
+		};
+		DFE2039A1E543A2800B1138E /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				DFE2039B1E543A2800B1138E /* Home */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		DFE2039B1E543A2800B1138E /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				DFE2039C1E543A2800B1138E /* Controller */,
+				DFE2039D1E543A2800B1138E /* Model */,
+				DFE2039E1E543A2800B1138E /* View */,
+				DFE2039F1E543A2800B1138E /* ViewModel */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		DFE2039C1E543A2800B1138E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		DFE2039D1E543A2800B1138E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		DFE2039E1E543A2800B1138E /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		DFE2039F1E543A2800B1138E /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		DFE203A01E543A3100B1138E /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				DFE203B61E543F1D00B1138E /* AppDelegate.h */,
+				DFE203B71E543F1D00B1138E /* AppDelegate.m */,
+				DFE203AF1E543BE800B1138E /* PrefixHeader.pch */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		DFE203A11E543A3100B1138E /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
+		DFE203A21E543A8600B1138E /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				DFE203A31E543A8600B1138E /* Controller */,
+				DFE203A41E543A8600B1138E /* Model */,
+				DFE203A51E543A8600B1138E /* View */,
+				DFE203A61E543A8600B1138E /* ViewModel */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		DFE203A31E543A8600B1138E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				DFE203A71E543A9F00B1138E /* RxBaseVC.h */,
+				DFE203A81E543A9F00B1138E /* RxBaseVC.m */,
+				DFE203AA1E543AC000B1138E /* RxTabVC.h */,
+				DFE203AB1E543AC000B1138E /* RxTabVC.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		DFE203A41E543A8600B1138E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		DFE203A51E543A8600B1138E /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		DFE203A61E543A8600B1138E /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		DFE203AD1E543AEB00B1138E /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Lib;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -250,12 +369,13 @@
 		DFD3F58D1E5432A600FA38C6 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = Rx;
 				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = RXL;
 				TargetAttributes = {
 					DFD3F5941E5432A600FA38C6 = {
 						CreatedOnToolsVersion = 8.2.1;
-						DevelopmentTeam = P7U52R78ZF;
+						DevelopmentTeam = 9L7KL2MSZ7;
 						LastSwiftMigration = 0820;
 						ProvisioningStyle = Automatic;
 					};
@@ -448,9 +568,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DFD3F5A01E5432A600FA38C6 /* ViewController.m in Sources */,
-				DFD3F59D1E5432A600FA38C6 /* AppDelegate.m in Sources */,
+				DFE203B81E543F1D00B1138E /* AppDelegate.m in Sources */,
 				DFD3F59A1E5432A600FA38C6 /* main.m in Sources */,
+				DFE203A91E543A9F00B1138E /* RxBaseVC.m in Sources */,
+				DFE203AC1E543AC000B1138E /* RxTabVC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -600,11 +721,13 @@
 			baseConfigurationReference = DA8A6339799F656FF040A63E /* Pods-MVVMModel.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = P7U52R78ZF;
+				DEVELOPMENT_TEAM = 9L7KL2MSZ7;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/rxl/Documents/IOS_learn/MVVM-RAC/MVVMModel/MVVMModel/Other/PrefixHeader.pch";
 				INFOPLIST_FILE = MVVMModel/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.rxl.mvvm;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rxl.rac;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -615,11 +738,13 @@
 			baseConfigurationReference = 086A42767806D95B62A98850 /* Pods-MVVMModel.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = P7U52R78ZF;
+				DEVELOPMENT_TEAM = 9L7KL2MSZ7;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/rxl/Documents/IOS_learn/MVVM-RAC/MVVMModel/MVVMModel/Other/PrefixHeader.pch";
 				INFOPLIST_FILE = MVVMModel/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.rxl.mvvm;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rxl.rac;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};

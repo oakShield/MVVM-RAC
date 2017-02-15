@@ -1,15 +1,14 @@
 //
-//  ViewController.h
+//  PrefixHeader.pch
 //  MVVMModel
 //
 //  Created by RXL on 17/2/15.
 //  Copyright © 2017年 RXL. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
 
-@interface ViewController : UIViewController
 
 
-@end
-
+#endif /* PrefixHeader_pch */
