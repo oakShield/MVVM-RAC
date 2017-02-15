@@ -7,6 +7,8 @@
 //
 
 #import "RxTabVC.h"
+#import "RxHomeVC.h"
+#import "RxNearVC.h"
 
 @interface RxTabVC ()
 
@@ -17,16 +19,21 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    // Uncomment the following line to preserve selection between presentations.
-    // self.clearsSelectionOnViewWillAppear = NO;
+    RxHomeVC *homeVC = [[RxHomeVC alloc] init];
+    RxNearVC *nearVc = [[RxNearVC alloc] init];
     
-    // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
-    // self.navigationItem.rightBarButtonItem = self.editButtonItem;
+    [self controller:homeVC title:@"首页"];
+    [self controller:nearVc title:@"附近"];
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+
+#pragma mark - 自定义方法
+- (void)controller:(UIViewController *)vc title:(NSString *)title
+{
+    UINavigationController *nav = [[UINavigationController alloc]initWithRootViewController:vc];
+    vc.title = title;
+
+    [self addChildViewController:nav];
 }
 
 

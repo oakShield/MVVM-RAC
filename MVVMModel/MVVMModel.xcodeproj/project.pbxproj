@@ -18,6 +18,8 @@
 		DFE203A91E543A9F00B1138E /* RxBaseVC.m in Sources */ = {isa = PBXBuildFile; fileRef = DFE203A81E543A9F00B1138E /* RxBaseVC.m */; };
 		DFE203AC1E543AC000B1138E /* RxTabVC.m in Sources */ = {isa = PBXBuildFile; fileRef = DFE203AB1E543AC000B1138E /* RxTabVC.m */; };
 		DFE203B81E543F1D00B1138E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DFE203B71E543F1D00B1138E /* AppDelegate.m */; };
+		DFE203C01E54434700B1138E /* RxHomeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = DFE203BF1E54434700B1138E /* RxHomeVC.m */; };
+		DFE203C31E54435900B1138E /* RxNearVC.m in Sources */ = {isa = PBXBuildFile; fileRef = DFE203C21E54435900B1138E /* RxNearVC.m */; };
 		F29440343624A6BC8CBCF3B2 /* Pods_MVVMModelTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 244F6571E7C9011CE6C0BB97 /* Pods_MVVMModelTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -66,6 +68,10 @@
 		DFE203AF1E543BE800B1138E /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		DFE203B61E543F1D00B1138E /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		DFE203B71E543F1D00B1138E /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DFE203BE1E54434700B1138E /* RxHomeVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RxHomeVC.h; sourceTree = "<group>"; };
+		DFE203BF1E54434700B1138E /* RxHomeVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RxHomeVC.m; sourceTree = "<group>"; };
+		DFE203C11E54435900B1138E /* RxNearVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RxNearVC.h; sourceTree = "<group>"; };
+		DFE203C21E54435900B1138E /* RxNearVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RxNearVC.m; sourceTree = "<group>"; };
 		F05A6B57618B0D7DB8BA7DB3 /* Pods_MVVMModelUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MVVMModelUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -150,10 +156,6 @@
 				DFE203A11E543A3100B1138E /* Tool */,
 				DFE203A01E543A3100B1138E /* Other */,
 				DFE203AD1E543AEB00B1138E /* Lib */,
-				DFD3F5A11E5432A600FA38C6 /* Main.storyboard */,
-				DFD3F5A41E5432A600FA38C6 /* Assets.xcassets */,
-				DFD3F5A61E5432A600FA38C6 /* LaunchScreen.storyboard */,
-				DFD3F5A91E5432A600FA38C6 /* Info.plist */,
 				DFD3F5981E5432A600FA38C6 /* Supporting Files */,
 			);
 			path = MVVMModel;
@@ -163,6 +165,10 @@
 			isa = PBXGroup;
 			children = (
 				DFD3F5991E5432A600FA38C6 /* main.m */,
+				DFD3F5A11E5432A600FA38C6 /* Main.storyboard */,
+				DFD3F5A41E5432A600FA38C6 /* Assets.xcassets */,
+				DFD3F5A61E5432A600FA38C6 /* LaunchScreen.storyboard */,
+				DFD3F5A91E5432A600FA38C6 /* Info.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -189,6 +195,7 @@
 			isa = PBXGroup;
 			children = (
 				DFE2039B1E543A2800B1138E /* Home */,
+				DFE203B91E54424200B1138E /* Near */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -207,6 +214,8 @@
 		DFE2039C1E543A2800B1138E /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				DFE203BE1E54434700B1138E /* RxHomeVC.h */,
+				DFE203BF1E54434700B1138E /* RxHomeVC.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -297,6 +306,48 @@
 			children = (
 			);
 			path = Lib;
+			sourceTree = "<group>";
+		};
+		DFE203B91E54424200B1138E /* Near */ = {
+			isa = PBXGroup;
+			children = (
+				DFE203BA1E54424200B1138E /* Controller */,
+				DFE203BB1E54424200B1138E /* Model */,
+				DFE203BC1E54424200B1138E /* View */,
+				DFE203BD1E54424200B1138E /* ViewModel */,
+			);
+			name = Near;
+			path = Home/Near;
+			sourceTree = "<group>";
+		};
+		DFE203BA1E54424200B1138E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				DFE203C11E54435900B1138E /* RxNearVC.h */,
+				DFE203C21E54435900B1138E /* RxNearVC.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		DFE203BB1E54424200B1138E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		DFE203BC1E54424200B1138E /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		DFE203BD1E54424200B1138E /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -568,10 +619,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DFE203C31E54435900B1138E /* RxNearVC.m in Sources */,
 				DFE203B81E543F1D00B1138E /* AppDelegate.m in Sources */,
 				DFD3F59A1E5432A600FA38C6 /* main.m in Sources */,
 				DFE203A91E543A9F00B1138E /* RxBaseVC.m in Sources */,
 				DFE203AC1E543AC000B1138E /* RxTabVC.m in Sources */,
+				DFE203C01E54434700B1138E /* RxHomeVC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

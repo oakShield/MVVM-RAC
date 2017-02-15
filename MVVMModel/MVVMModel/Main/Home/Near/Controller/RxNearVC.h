@@ -1,5 +1,5 @@
 //
-//  RxBaseVC.h
+//  RxNearVC.h
 //  MVVMModel
 //
 //  Created by RXL on 17/2/15.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface RxBaseVC : UIViewController
+@interface RxNearVC : UIViewController
 
 @end
