@@ -7,7 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "RxBaseVC.h"
 
-@interface RxNearVC : UIViewController
+@interface RxNearVC : RxBaseVC
 
 @end

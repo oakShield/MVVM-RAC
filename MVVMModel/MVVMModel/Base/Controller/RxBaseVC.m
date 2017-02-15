@@ -7,6 +7,7 @@
 //
 
 #import "RxBaseVC.h"
+#import <ReactiveCocoa/ReactiveCocoa.h>
 
 @implementation RxBaseVC
 

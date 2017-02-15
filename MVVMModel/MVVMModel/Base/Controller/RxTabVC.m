@@ -10,6 +10,7 @@
 #import "RxHomeVC.h"
 #import "RxNearVC.h"
 
+
 @interface RxTabVC ()
 
 @end
@@ -24,6 +25,9 @@
     
     [self controller:homeVC title:@"首页"];
     [self controller:nearVc title:@"附近"];
+    
+    
+    
 }
 
 
